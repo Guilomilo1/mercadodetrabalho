@@ -5,35 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado de Trabalho TI</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <!-- Cabeçalho -->
     <header>
         <nav>
             <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Ajuda</a></li>
-                <li><a href="#">Vagas de Emprego</a></li>
-                <li><a href="#">Log in</a></li>
-                <li><a href="#" class="btn">Sign in</a></li>
+                <li><a href="#" aria-label="Início">Início</a></li>
+                <li><a href="#" aria-label="Ajuda">Ajuda</a></li>
+                <li><a href="#" aria-label="Vagas de Emprego">Vagas de Emprego</a></li>
+                <li><a href="#" aria-label="Log in">Log in</a></li>
+                <li><a href="#" class="btn" aria-label="Sign in">Sign in</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- Conteúdo Principal -->
     <main>
         <section class="content">
-            <img src="./image-ti.png" alt="Ilustração de TI">
+            <div class="image-container">
+                <img src="image-ti.png" alt="Ilustração de TI">
+            </div>
             <div class="text">
                 <h1>Mercado de trabalho: TI</h1>
-                <p>O mercado de trabalho em Tecnologia da Informação (TI)
-                   está em constante evolução, oferecendo inúmeras oportunidades 
-                   para profissionais qualificados em diversas áreas, como desenvolvimento de software, 
-                   segurança cibernética, inteligência artificial e gestão de dados. Com a crescente 
-                   transformação digital, empresas de todos os setores buscam talentos capazes de impulsionar a 
-                   inovação e otimizar processos. Neste site, você encontrará informações atualizadas sobre as 
-                   principais tendências, carreiras promissoras, habilidades mais demandadas e dicas valiosas 
-                   para se destacar em um dos setores mais dinâmicos e promissores da atualidade.</p>
+                <p>O mercado de trabalho em Tecnologia da Informação (TI) está em constante evolução, oferecendo inúmeras oportunidades para profissionais qualificados. Setores como desenvolvimento de software, segurança cibernética, inteligência artificial e gestão de dados estão em alta.</p>
+                <p>Empresas de diversos segmentos buscam talentos capazes de impulsionar a inovação e otimizar processos. Descubra as principais tendências, carreiras promissoras e habilidades mais demandadas.</p>
                 <a href="#" class="read-more">Leia mais</a>
             </div>
         </section>
     </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>Sobre Nós</h3>
+                <p>Somos um portal dedicado a conectar talentos de TI com oportunidades no mercado. Nossa missão é fornecer informações atualizadas e relevantes para ajudar profissionais a crescer na carreira.</p>
+            </div>
+
+            <div class="footer-section links">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li><a href="#">Vagas de Emprego</a></li>
+                    <li><a href="#">Carreiras</a></li>
+                    <li><a href="#">Cursos e Certificações</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section contact">
+                <h3>Contato</h3>
+                <p><i class="fas fa-envelope"></i> contato@mercadoti.com</p>
+                <p><i class="fas fa-phone"></i> (11) 98765-4321</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Mercado de Trabalho TI. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
